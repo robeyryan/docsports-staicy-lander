@@ -1,1 +1,12 @@
-{"name":"docsports-lander","private":true}
+{
+  "name": "docsports-lander",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.tsx",
+    "build": "echo no-build"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}
